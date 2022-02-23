@@ -8,4 +8,4 @@ before_install:
   - docker build -t sukeerat08/docker-react -f Dockerfile.dev .
 
 scripts:
-  - docker run sukeerat/docker-react npm run test -- --coverage
+  - docker run sukeerat08/docker-react npm run test -- --coverage
